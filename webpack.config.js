@@ -7,6 +7,9 @@ module.exports = {
         filename: "app.js",
         path: path.resolve(__dirname, "build")
     },
+    resolve: {
+        extensions: ["", ".js", ".ts"]
+    },
     devtool: "inline-source-map",
     module: {
         loaders: [
