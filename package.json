@@ -1,13 +1,14 @@
 {
   "name": "typescript-starter-kit",
   "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Frontend starter kit with TypeScript and webpack",
+  "main": "build/app.js",
   "scripts": {
     "prepublish": "webpack -p",
     "start": "webpack-dev-server",
     "typings": "typings"
   },
+  "repository": "tomshen/typescript-starter-kit",
   "author": "Tom Shen <tom@shen.io>",
   "license": "MIT",
   "devDependencies": {
